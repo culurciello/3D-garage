@@ -1,0 +1,14 @@
+{
+  "name": "3D-garage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eugenio Culurciello",
+  "license": "ISC",
+  "dependencies": {
+    "litegraph.js": "^0.7.10"
+  }
+}

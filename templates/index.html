@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/base.css') }}">
+        <title>Babylonjs - Game Garage</title>
+        
+        <!-- 3D BabylonJS -->
+        <!-- <script src="/static/node_modules/babylonjs/babylon.js"></script> -->
+        <!-- <script src="/static/node_modules/babylonjs-gui/babylon.gui.min.js"></script> -->
+        <!-- <script src="/static/node_modules/babylonjs-loaders/babylonjs.loaders.min.js"></script> -->
+        <!-- <script src="/static/node_modules/babylonjs-materials/babylonjs.materials.min.js"></script> -->
+
+        <!-- Babylon.js -->
+        <script src="https://preview.babylonjs.com/babylon.js"></script>
+        <script src="https://preview.babylonjs.com/materialsLibrary/babylonjs.materials.min.js"></script>
+        <script src="https://preview.babylonjs.com/proceduralTexturesLibrary/babylonjs.proceduralTextures.min.js"></script>
+        <script src="https://preview.babylonjs.com/loaders/babylonjs.loaders.js"></script>
+        <script src="https://preview.babylonjs.com/gui/babylon.gui.min.js"></script>
+        <script src="https://preview.babylonjs.com/earcut.min.js"></script>
+
+        <!-- <script src="https://preview.babylonjs.com/postProcessesLibrary/babylonjs.postProcess.min.js"></script> -->
+        <!-- <script src="https://preview.babylonjs.com/serializers/babylonjs.serializers.min.js"></script> -->
+        <!-- <script src="https://preview.babylonjs.com/inspector/babylon.inspector.bundle.js"></script> -->
+
+        <!-- Litegraph js lib: -->
+        <link rel="stylesheet" type="text/css" href="https://tamats.com/projects/litegraph/css/litegraph.css">
+        <script type="text/javascript" src="https://unpkg.com/litegraph.js@0.7.8/build/litegraph.js"></script>
+
+        <!-- FOR SOME REASON THIS BELOW DOES NOT RUN MENU -->
+        <!-- <script type="text/javascript" src="/static/node_modules/litegraph.js/build/litegraph.js"></script> -->
+        <!-- <script type="text/javascript" src="/static/litegraph/defaults.js"></script> -->
+
+        <script type="module" src="/static/app.js"></script>
+
+    </head>
+
+    <body>
+
+        <div id="gamecontainer">
+
+            <!-- 3D BabylonJS - canvas -->
+            <canvas id="renderCanvas"></canvas>
+            
+            <!-- litegraph - canvas -->
+            <canvas id="litegraph" width='1280' height='400' style='border: 1px solid'></div>
+
+        </div>
+
+
+    </body>
+
+</html>
