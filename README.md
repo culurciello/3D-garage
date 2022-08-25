@@ -2,6 +2,9 @@
 
 Build a game in your garage
 
+
+![example](images/litegraph_operational.jpg)
+
 ### Installation
 ```
 cd static/
